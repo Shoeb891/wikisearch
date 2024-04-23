@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body{
+  background-color: rgb(233, 232, 232);
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: grey;
+  font-size: 43px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  max-width: 480px;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.search-box input{
+  display: block;
+  appearance: none;
+  border: none;
+  outline: none;
+
+  padding: 16px;
+  width: 100%;
+}
+
+.results{
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.result{
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 16ppx;
+}
+
+.result h3{
+  color: #888;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.result p{
+  color: #888;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.result a{
+  color: #fff;
+  display: inline-block;
+  background-color: rgb(54, 50, 162);
+  border-radius: 16px;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
